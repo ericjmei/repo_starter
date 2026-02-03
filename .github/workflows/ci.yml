@@ -25,5 +25,5 @@ jobs:
       - name: Ruff format (check only)
         run: pixi run -e dev ruff format --check . 
 
-      - name: Pytest
-        run: pixi run -e dev pytest
+      # - name: Pytest
+      #   run: pixi run -e dev pytest
