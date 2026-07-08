@@ -25,6 +25,8 @@ scipy = ">=1.17.0,<2"
 xarray = ">=2026.1.0,<2027"
 matplotlib = ">=3.10.8,<4"
 pre-commit = ">=4.5.1,<5"
+mscorefonts = ">=0.0.1,<0.0.2"
+netcdf4 = ">=1.7.4,<2"
 
 [tool.pixi.environments]
 default = { solve-group = "default" }
